@@ -1,10 +1,27 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100vh;
+  color: white;
+  background-image: url(./img/wallpaper.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
 
 form{
-    width: 500px;
+    /* width: 500px; */
   }
   
   input{
     width: 200px;
+    margin: 10px;
   }
   
   .bad{
@@ -27,7 +44,7 @@ form{
   }
   
   .bar_container{
-    width: 200px;
+    width: 100%;
     height: 5px;
     margin-top: 5px;
   }
