@@ -1,0 +1,71 @@
+
+form{
+    width: 500px;
+  }
+  
+  input{
+    width: 200px;
+  }
+  
+  .bad{
+  /*   width: 34%;
+    background-color: red; */
+    animation: bad .2s linear forwards;
+  }
+  
+  .good{
+  /*   width: 68%;
+    background-color: orange; */
+    animation: good .2s linear forwards;
+  }
+  
+  .perfect{
+  /*   width: 100%;
+    background-color: green; */
+    animation: perfect .2s linear forwards;
+    
+  }
+  
+  .bar_container{
+    width: 200px;
+    height: 5px;
+    margin-top: 5px;
+  }
+  
+  #password-length{
+    height: 100%;
+    border-radius: 25px; 
+  }
+  
+  @keyframes bad{
+    0%{
+      width: 10%;
+      background-color: red;
+    }
+    100%{
+      width: 34%;
+      background-color: red;
+    }
+  }
+  
+  @keyframes good{
+    0%{
+      width: 34%;
+      background-color: orange;
+    }
+    100%{
+      width: 68%;
+      background-color: orange;
+    }
+  }
+  
+  @keyframes perfect{
+    0%{
+      width: 69%;
+      background-color: green;
+    }
+    100%{
+      width: 100%;
+      background-color: green;
+    }
+  }
