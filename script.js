@@ -20,5 +20,6 @@ function password_length(event){
 }
 
 function login(){
-  
+  let email = document.getElementById('email').value
+  alert(`Bem-Vindo(a) de volta ${email}`)
 }

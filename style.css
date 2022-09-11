@@ -8,6 +8,7 @@
   --green: #00ff15;
   --orange: #fa8007;
   --red: red;
+  --blue: #00d9ff;
 }
 
 
@@ -44,6 +45,27 @@ form{
     width: 200px;
     height: 25px;
     margin: 10px;
+  }
+
+  .btn-login{
+    margin-top: 15px;
+    width: 200px;
+    height: 25px;
+
+    cursor: pointer;
+    border: none;
+    border-radius: 15px;
+    background: white;
+    transition: .3s;
+      
+    color: black;
+    font-weight: bold;
+  }
+
+  .btn-login:hover{
+    background: var(--blue);
+    box-shadow: 0px 0px 15px var(--blue);
+    color: white;
   }
   
   .bad{
