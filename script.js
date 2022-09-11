@@ -22,4 +22,10 @@ function password_length(event){
 function login(){
   let email = document.getElementById('email').value
   alert(`Bem-Vindo(a) de volta ${email}`)
+  limpaCampo('email', 'senha')
+}
+
+function limpaCampo(idEmail, idSenha){
+  document.getElementById(idEmail).value = '';
+  document.getElementById(idSenha).value = '';
 }
